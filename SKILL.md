@@ -6,6 +6,11 @@ name: ks-engine
 description: "快手视频分析数据源（只读）：关键词搜视频、博主作品与粉丝数据、视频评论，输出 JSON，不登录不发布。触发词：快手、Kuaishou、kwai、快手搜索、快手评论、快手博主。用户要查快手视频、评论、爆款选题、竞品监控、KOL 筛选或评论舆情时使用；抖音、小红书、B站、微博、公众号不要用本技能。"
 license: MIT
 version: 1.1.2
+display_name: "快手视频分析｜选题·竞品·粉丝画像·评论洞察"
+display_name_en: "Kuaishou Video Analytics"
+description_zh: "快手视频分析数据源（只读）：关键词搜索视频与爆款选题、博主作品列表与粉丝画像、视频评论舆情，支持综合/最新/最多点赞/最多收藏排序与时间、时长筛选，全部以结构化 JSON 输出供 AI 直接分析。不登录、不发布、不点赞、不评论、不关注。按量单次最多 1 万条；包月搜索/作品/评论分别最多 30/50/60，超限返回 PLAN_LIMIT 可降 limit 或升级套餐。适用于爆款拆解、竞品监控、KOL 筛选、粉丝画像与评论情绪归类、选题挖掘。"
+description_en: "Read-only Kuaishou analytics data source: keyword video search with trending topic discovery, creator video lists and follower insights, and video comment sentiment mining. Supports relevance/latest/most-liked/most-collected sorting plus time-window and duration filters; all results are structured JSON ready for direct AI analysis. No login, publishing, liking, commenting, or following. Pay-per-use runs cap at 10,000 items; monthly plans cap search/videos/comments at 30/50/60, with PLAN_LIMIT returned on breach (lower --limit or upgrade). Ideal for hit-video teardowns, competitor monitoring, KOL selection, follower profiling, comment sentiment grouping, and topic mining."
+author: "新郑市怪奇信息技术工作室"
 metadata:
   openclaw:
     emoji: "📷"
